@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    width: 100vw;
+    color: #fff;
+    height: 100vh;
+    background-color: #040d13;
+}
+.top{
+    width: 100%;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b2ab7;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.top .logo h1{
+    margin-left: 2px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.top .logo h1 span{
+    color: #a59e9e;
+    margin-left: 2.5px;
+}
+.top .menu-btns{
+    display: flex;
+}
+.top .menu-btns .search{
+    background-color: #ffffff1e;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 15px;
+}
+.fa-magnifying-glass{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.top .menu-btns .search input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    width: 320px;
+    color: #fff;
+    font-size: 13px;
+}
+.top .menu-btns .search input::placeholder {
+    color: white;
+  }
+.top .menu-btns .search .ctrlk{
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 13px;
+    border: 1px solid white;
+    padding: 2px 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menu-btns{
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+}
+.sidebar{
+    width: 230px;
+}
+.hr {
+    border-color: #5b5b5bb0;
+    width: 93%;
+    margin-left: 3.5%;
+    margin-top: -15px;
+}
+.sidebar .info{
+    padding: 15px 10px;
+}
+.info ul li{
+    list-style-type: none;
+    margin-left: 3px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #e0e0e0b1;
+    cursor: pointer;
+}
+.info ul li:hover{
+    color: #fff;
+}
+.info ul .active{
+    color: #fff;
+}
+.side-icon{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.blue-btn{
+    color: white;
+    font-size: 8px;
+    background-color: blue;
+    letter-spacing: 1px;
+    line-height: 7px;
+    outline: 0;
+    border: 0;
+    padding: 2px;
+    border-radius: 3px;
+    margin-left: 7px;
+}
+.hero{
+    background-color: rgb(23, 26, 26);
+    width: 100%;
+    height: calc(100vh - 40px);
+}
+.sidebar .bottom {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .bottom .extension{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sidebar .bottom .add-extension{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.sidebar .bottom .extension h4,
+.sidebar .bottom .add-extension h4{
+    font-size: 15px;   
+    font-weight: 400;
+}
+.sidebar .bottom .extension i,
+.sidebar .bottom .add-extension i{
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.sidebar .bottom .add-extension{
+    display: flex;
+}
+.stats{
+    background-color: rgba(255, 255, 255, 0.075);
+    display: flex;
+    height: 60px;
+    padding: 10px 20px 10px 10px;
+    width: 94%;
+    margin-left: 3%;
+    border-radius: 3px;
+    justify-content: space-between;
+}
+.cpu-item>p,
+.memory-item>p{
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+.cpu,
+.memory{
+    display: flex;
+    flex-direction: column;
+}
+.memory-item, .cpu-item{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+}
+.memory-item i, 
+.cpu-item i{
+    margin-left: 10px;
+}
+.percent{
+    color: #30cb45;
+    font-weight: 600;
+    font-size: 14px;
+}
+.percent2{
+    color: #e0e0e089;
+    font-size: 14px;
+}
+.less-size{
+    color: #e0e0e089;
+    font-size: 11px;
+}
+.hero-p{
+    padding-bottom: 10px;
+}
+.show-charts{
+    font-size: 12px;
+    font-weight: 500;
+}
+.hero h1{
+    margin: 10px 0px 35px 30px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.hero h1 a{
+    font-size: 10px;
+    margin-left: 8px;
+}
+.searchh .search-box{
+    border: 1px solid #e0e0e089;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+.searchh .search-box:hover{
+    border: 1px solid #fff;
+}
+.search-box input{
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+.search-box i{
+    color: rgba(255, 255, 255, 0.867);
+    margin-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+.search-box input::placeholder {
+    color: rgba(255, 255, 255, 0.867);
+}
+.searchh{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 30px;
+    align-items: center;
+}
+.fa-bars{
+    margin-left: 20px;
+    margin-right: 30px;
+    transform: rotate(90deg);
+    color: #e0e0e0c3;
+    cursor: pointer;
+}
+.fa-toggle-off{
+    margin-right: 15px;
+    color: #e0e0e0c3;
+    cursor: pointer;
+}
+.search-para{
+    font-size: 13px;
+    color: #e0e0e0c3;
+    cursor: pointer;
+}
+.delete-btn{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.847);
+    border-radius: 3px;
+    padding: 8px 11px;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    margin-left: 295px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.controls-icon{
+    margin-right: 0;
+    color: white;
+    background-color: rgb(28, 28, 191);
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    
+}
+.docker-info,
+.container-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 18px;
+}
+.fa-square-check,
+.fa-square{
+    position: absolute;
+    left: -60px;
+    top: 2px;
+}
+.docker-info h2{
+    font-size: 14px;
+    font-weight: 400;
+}
+.docker-info-hr{
+    border-color: #5b5b5bb0;
+    width: 94%;
+    margin-left: 3%;
+}
+.container-info h2{
+    font-size: 14px;
+    font-weight: 400;
+}
+.container-info-hr{
+    border-color: #95c9ce60;
+    width: 94%;
+    margin-left: 3%;
+}
+.fa-copy{
+    font-size: 11px;
+}
+.details-para{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.actions-icons{
+    margin-right: 12px;
+}
+.details-container{
+    display: flex;
+}
+.details-container i{
+    padding-top: 10px;
+}
+.fa-user{
+    color: #fff;
+}
+
+
+
+
+.hide{
+    display: none;
+}
